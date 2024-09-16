@@ -162,31 +162,31 @@ namespace Homework1
 
             //#8
 
-            Console.WriteLine("Enter date:");
-            string input = Console.ReadLine();
+            //Console.WriteLine("Enter date:");
+            //string input = Console.ReadLine();
 
             
-            if (DateTime.TryParseExact(input, "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date))
-            {
+            //if (DateTime.TryParseExact(input, "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date))
+            //{
                 
-                DayOfWeek dayOfWeek = date.DayOfWeek;
-                Console.WriteLine("Day of the week: " + dayOfWeek);
+            //    DayOfWeek dayOfWeek = date.DayOfWeek;
+            //    Console.WriteLine("Day of the week: " + dayOfWeek);
 
                 
-                int month = date.Month;
-                string season;
+            //    int month = date.Month;
+            //    string season;
 
-                if (month == 12 || month == 1 || month == 2)
-                    season = "Winter";    
-                else if (month >= 3 && month <= 5)
-                    season = "Spring";    
-                else if (month >= 6 && month <= 8)
-                    season = "Summer";    
-                else
-                    season = "Autumn";    
+            //    if (month == 12 || month == 1 || month == 2)
+            //        season = "Winter";    
+            //    else if (month >= 3 && month <= 5)
+            //        season = "Spring";    
+            //    else if (month >= 6 && month <= 8)
+            //        season = "Summer";    
+            //    else
+            //        season = "Autumn";    
 
-                Console.WriteLine("Season: " + season);
-            }
+            //    Console.WriteLine("Season: " + season);
+            //}
 
         }
 
